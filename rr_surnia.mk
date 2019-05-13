@@ -1,5 +1,5 @@
 # Copyright (C) 2014-2016 The CyanogenMod Project
-#               2017-2018 The LineageOS Project
+#               2017-2018 The rrOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
 # limitations under the License.
 
 $(call inherit-product, device/motorola/surnia/full_surnia.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
@@ -22,7 +22,7 @@ TARGET_SCREEN_HEIGHT := 960
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := surnia
-PRODUCT_NAME := lineage_surnia
+PRODUCT_NAME := rr_surnia
 PRODUCT_MODEL := Moto E LTE
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
